@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="512" height="512" rx="96" fill="#06122C"/>
+  
+  <!-- Group for Logo -->
+  <g transform="translate(10, 15)">
+    <!-- Speed Lines (Orange) -->
+    <g stroke="#FF6B00" stroke-width="14" stroke-linecap="round">
+      <!-- Row 1 -->
+      <path d="M 40 160 H 70" />
+      <path d="M 95 160 H 155" />
+      <!-- Row 2 -->
+      <path d="M 20 205 H 50" />
+      <path d="M 75 205 H 100" />
+      <path d="M 125 205 H 155" />
+      <!-- Row 3 -->
+      <path d="M 50 250 H 80" />
+      <path d="M 105 250 H 155" />
+    </g>
+    
+    <!-- Orange Cargo Container -->
+    <path d="M 170 115 H 335 A 15 15 0 0 1 350 130 V 255 A 10 10 0 0 1 340 265 H 170 A 10 10 0 0 1 160 255 V 130 A 15 15 0 0 1 170 115 Z" fill="#FF6B00" />
+    
+    <!-- White Cab Body -->
+    <path d="M 350 140 H 410 L 455 200 V 255 H 350 Z" fill="#FFFFFF" />
+    
+    <!-- Cab Window (Dark Navy) -->
+    <path d="M 362 152 H 402 L 434 195 H 362 Z" fill="#06122C" />
+    
+    <!-- Bumper details & chassis line (White/Black) -->
+    <rect x="445" y="240" width="18" height="8" rx="3" fill="#FF6B00" />
+    
+    <!-- Wheel Arches (Dark Cutouts in the body/cargo) -->
+    <path d="M 200 265 A 36 36 0 0 1 270 265 Z" fill="#06122C" />
+    <path d="M 370 265 A 36 36 0 0 1 440 265 Z" fill="#06122C" />
+    
+    <!-- Wheels -->
+    <!-- Wheel 1 -->
+    <g transform="translate(235, 265)">
+      <circle cx="0" cy="0" r="32" fill="#111111" />
+      <circle cx="0" cy="0" r="22" fill="#FFFFFF" />
+      <circle cx="0" cy="0" r="10" fill="#111111" />
+    </g>
+    <!-- Wheel 2 -->
+    <g transform="translate(405, 265)">
+      <circle cx="0" cy="0" r="32" fill="#111111" />
+      <circle cx="0" cy="0" r="22" fill="#FFFFFF" />
+      <circle cx="0" cy="0" r="10" fill="#111111" />
+    </g>
+  </g>
+</svg>

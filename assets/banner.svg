@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 360" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="1000" height="360" fill="#FFFFFF" rx="16" stroke="#E2E8F0" stroke-width="2" />
+  
+  <!-- Logo & Title Section -->
+  <g transform="translate(40, 35)">
+    <!-- Truck Logo Group -->
+    <g transform="translate(0, 10) scale(1.05)">
+      <!-- Speed Lines (Orange) -->
+      <g stroke="#FF6B00" stroke-width="12" stroke-linecap="round">
+        <path d="M 20 110 H 50" />
+        <path d="M 70 110 H 120" />
+        <path d="M 10 145 H 35" />
+        <path d="M 55 145 H 75" />
+        <path d="M 95 145 H 120" />
+        <path d="M 30 180 H 55" />
+        <path d="M 75 180 H 120" />
+      </g>
+      <!-- Orange Cargo -->
+      <path d="M 135 75 H 275 A 12 12 0 0 1 287 87 V 190 A 8 8 0 0 1 279 198 H 135 A 8 8 0 0 1 127 190 V 87 A 12 12 0 0 1 135 75 Z" fill="#FF6B00" />
+      <!-- White Cab -->
+      <path d="M 287 95 H 337 L 377 145 V 198 H 287 Z" fill="#06122C" stroke="#06122C" stroke-width="2" />
+      <path d="M 291 99 H 333 L 369 145 V 194 H 291 Z" fill="#FFFFFF" />
+      <!-- Window -->
+      <path d="M 297 107 H 327 L 349 138 H 297 Z" fill="#06122C" />
+      <!-- Bumper detail -->
+      <rect x="365" y="185" width="15" height="6" rx="2" fill="#FF6B00" />
+      <!-- Wheel Arches -->
+      <path d="M 160 198 A 28 28 0 0 1 216 198 Z" fill="#FFFFFF" />
+      <path d="M 300 198 A 28 28 0 0 1 356 198 Z" fill="#FFFFFF" />
+      <!-- Wheels -->
+      <g transform="translate(188, 198)">
+        <circle cx="0" cy="0" r="26" fill="#111111" />
+        <circle cx="0" cy="0" r="18" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="8" fill="#111111" />
+      </g>
+      <g transform="translate(328, 198)">
+        <circle cx="0" cy="0" r="26" fill="#111111" />
+        <circle cx="0" cy="0" r="18" fill="#FFFFFF" />
+        <circle cx="0" cy="0" r="8" fill="#111111" />
+      </g>
+    </g>
+
+    <!-- Company Branding Text next to Logo -->
+    <g transform="translate(420, 25)">
+      <!-- English Title -->
+      <text x="0" y="55" font-family="'Outfit', 'Inter', sans-serif" font-weight="900" font-size="44" fill="#FF6B00" letter-spacing="1">GATI DELIVERY &amp; LOGISTICS</text>
+      
+      <!-- Odia Title -->
+      <text x="0" y="125" font-family="'Noto Sans Odia', sans-serif" font-weight="bold" font-size="38" fill="#06122C">ଗତି ଡେଲିଭରି ଆଣ୍ଡ ଲଜିଷ୍ଟିକ୍ସ</text>
+    </g>
+  </g>
+
+  <!-- Horizontal Divider Line -->
+  <line x1="40" y1="245" x2="960" y2="245" stroke="#FF6B00" stroke-width="2" opacity="0.3" />
+
+  <!-- Tagline Section at the Bottom -->
+  <g transform="translate(50, 265)">
+    <text x="450" y="38" font-family="'Inter', sans-serif" font-weight="700" font-size="22" fill="#06122C" text-anchor="middle">
+      From Parcel to Home Shifting. <tspan fill="#FF6B00" font-family="'Noto Sans Odia'">ପାର୍ସଲ ଠାରୁ ଘର ସ୍ଥାନାନ୍ତର ପର୍ଯ୍ୟନ୍ତ</tspan>
+    </text>
+  </g>
+</svg>
